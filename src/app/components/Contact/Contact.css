@@ -1,0 +1,88 @@
+.Contact {
+  display: flex;
+  max-width: 65rem;
+  width: 100%;
+  padding: 5.75rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.Contact .info {
+  display: flex;
+  gap: 1rem;
+  max-width: 55.375rem;
+  padding: 0;
+  width: 100%;
+  align-self: start;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+.title {
+  align-self: center;
+}
+
+.contacts {
+  display: flex;
+  background-color: #585f91;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-xn6ruc > :not(style) {
+  width: 50ch;
+  padding-right: 15px;
+}
+
+button.send {
+  display: flex;
+  width: 233px;
+  padding: 0.75rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1105px) {
+  .Contact {
+    padding: 5.75rem 1rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .css-xlp33h {
+    width: 80%;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 870px) {
+  .Contact {
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+  }
+  .Contact .info {
+    align-self: center;
+  }
+  button {
+    align-self: center;
+  }
+}

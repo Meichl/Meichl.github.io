@@ -1,0 +1,76 @@
+.Services {
+  display: flex;
+  max-width: 77rem;
+  width: 100%;
+  align-self: center;
+  padding: 4rem 2.75rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.servHead {
+  display: flex;
+  max-width: 50.625rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.servHead h1 {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 3.375rem */
+}
+
+.servHead p {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+}
+
+.cardsServices {
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+  max-width: 90rem;
+  width: 100%;
+  align-self: center;
+}
+
+.cardServices {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex: 1;
+  align-self: stretch;
+  min-width: 155px;
+}
+
+.cardServices p {
+  color: #1f1f1f;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.3125rem */
+}
+
+@media (max-width: 1200px) {
+  .cover {
+    padding: 0rem 3.75rem;
+    gap: 1rem;
+  }
+}

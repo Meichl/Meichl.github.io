@@ -1,0 +1,56 @@
+:root {
+  --max-width: 1440px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --prim: (#002471);
+  --sec: (#5360b9);
+  --ter: (#ccd2ff)
+  --Dark: (#1F1F1F);
+  --Dark-Grey: (#D7D7D7);
+  --Medium-Grey: (#E1E1E1);
+  --Grey: (#F7F7F7);
+  --White: (#FFF);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blueBack {
+  background-color: #ccd2ff;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#column {
+  flex-direction: column;
+}
+
+.blackBack {
+  background-color: #1f1f1f;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
